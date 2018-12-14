@@ -37,7 +37,7 @@ class PlayService : Service() {
         player?.setDataSource(this, Uri.parse(url))
         player?.setOnPreparedListener { p ->
             p.start()
-            //запускаем таймер и для отображения в нотификации
+            //запускаем таймер для отображения в нотификации
             val timer = Timer()
             timer.schedule(object : TimerTask() {
                 override fun run() {
