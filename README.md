@@ -1,1 +1,1 @@
-"# NewsApp" 
+"# News app with podcasts" 
